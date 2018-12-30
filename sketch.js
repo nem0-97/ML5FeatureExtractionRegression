@@ -15,7 +15,6 @@ function setup(){
 //called by button when adding images with 0 to 1 value to regressor
 function addClassImg(label){
   regressor.addImage(label);
-  console.log(label+' image added');
 }
 
 //called after images added to regressor and when training is started by user
